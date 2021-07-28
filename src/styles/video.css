@@ -1,0 +1,26 @@
+.video-container {
+  width: 20%;
+  margin: 1%;
+}
+.video-container img {
+  width: 100%;
+}
+
+.video-container a {
+  text-decoration: none;
+  color: rgb(42, 42, 42);
+  display: inline-block;
+  padding: 1%;
+  transition: 0.3s;
+}
+.video-container a:hover {
+  background-color: rgb(236, 236, 236);
+}
+.video-container .delete-btn {
+  background-color: transparent;
+  align-self: flex-end;
+  border: none;
+  cursor: pointer;
+  color: rgb(197, 25, 25);
+  float: right;
+}

@@ -1,0 +1,29 @@
+.video-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.video-form label {
+  width: 100%;
+}
+.video-form input,
+.video-form textarea {
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.video-form input[type="submit"] {
+  width: 50%;
+  background-color: var(--primary);
+  border: none;
+  margin: 10px auto;
+  color: white;
+  cursor: pointer;
+}

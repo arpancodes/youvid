@@ -1,0 +1,20 @@
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.delete-all {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 50px;
+}
+
+.delete-all button {
+  background-color: transparent;
+  align-self: flex-end;
+  border: none;
+  cursor: pointer;
+  color: rgb(197, 25, 25);
+  float: right;
+}
